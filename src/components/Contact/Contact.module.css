@@ -1,0 +1,105 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 58px 10%;
+  gap: 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  transition: color 0.3s;
+}
+.link a:hover {
+  color: var(--color-primary); /* Change color on hover */
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 500px;
+}
+
+.form {
+  width: 100%;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px; /* Added padding for better appearance */
+  border: 1px solid #ccc; /* Added border for input fields */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 15px;
+  font-size: 18px; /* Increased font size */
+}
+
+.form textarea {
+  height: 150px; /* Increased height for textarea */
+}
+
+.form button {
+  width: 100%;
+  padding: 15px; /* Increased padding for button */
+  background-color: var(--color-primary); /* Changed background color */
+  color: white; /* Text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 20px; /* Increased font size */
+}
+
+.form button:hover {
+  background-color: var(--color-primary-dark); /* Darker background color on hover */
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .links {
+    align-items: center;
+  }
+}
