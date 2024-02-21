@@ -1,0 +1,67 @@
+[
+    {
+      "title": "React Portfolio",
+      "imageSrc": "projects/project1.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Html", "Bootstrap", "JavaScript"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Team Profile Generator",
+      "imageSrc": "projects/project2.png",
+      "description": "This GitHub repository houses a Node.js command-line application to generate team profile html file",
+      "skills": ["JavaScript","Bootstrap", "Node", "Html"],
+      "demo": "https://github.com/prodeveloper2023/Team_profile_generator/tree/main/output",
+      "source": "https://github.com/prodeveloper2023/Team_profile_generator"
+    },
+    {
+      "title": "Bootstrap Portfolio Website",
+      "imageSrc": "projects/project3.png",
+      "description": "A Responsive Portfolio using Html, Css and Bootstrap 5.",
+      "skills": ["Bootstrap", "Html", "Css"],
+      "demo": "https://prodeveloper2023.github.io/Bootstrap-Portfolio/",
+      "source": "https://github.com/prodeveloper2023/Bootstrap-Portfolio"
+    },
+    {
+      "title": "Random Password Generator",
+      "imageSrc": "projects/project4.png",
+      "description": "Random Password Generator can be used to generate a random password based on criteria selected by the User.",
+      "skills": ["Html", "Css", "JavaScript"],
+      "demo": "https://prodeveloper2023.github.io/Random-Password-Generator/",
+      "source": "https://github.com/prodeveloper2023/Random-Password-Generator"
+    },
+    {
+      "title": "Timed Coding Quiz Game",
+      "imageSrc": "projects/project5.png",
+      "description": "A fun Coding Quiz game with multiple choice questions which uses localstorage to display results.",
+      "skills": ["JavaScript", "Html", "Bootstrap"],
+      "demo": "https://prodeveloper2023.github.io/Timed-QuizGame/",
+      "source": "https://github.com/prodeveloper2023/Timed-QuizGame"
+    },
+    {
+      "title": "Daily Event Keeper",
+      "imageSrc": "projects/project6.png",
+      "description": "Simple calendar application that allows a user to save events for each hour of the day. Present/current hour block shows in red, future hour in green and Past hour is in grey.",
+      "skills": ["JavaScript", "JQuery", "Html"],
+      "demo": "https://prodeveloper2023.github.io/Daily-Event-Keeper/",
+      "source": "https://github.com/prodeveloper2023/Daily-Event-Keeper"
+    },
+    {
+      "title": "5 days Weather Dashboard",
+      "imageSrc": "projects/project7.png",
+      "description": "A weather app which displays the current and future(5 days) weather data through API.",
+      "skills": ["JavaScript", "JQuery", "Html","Css"],
+      "demo": "https://prodeveloper2023.github.io/Weather-Dashboard/",
+      "source": "https://github.com/prodeveloper2023/Weather-Dashboard"
+    },
+    {
+      "title": "Professional README Generator",
+      "imageSrc": "projects/project8.png",
+      "description": "A command-line application that dynamically generates a professional README.md from a user's input using the Inquirer package.",
+      "skills": ["JavaScript","Node", "Html","Css"],
+      "demo": "https://github.com/prodeveloper2023/Readme-Generator/tree/main/Sample%20README",
+      "source": "https://github.com/prodeveloper2023/Readme-Generator"
+    }
+
+  ]
